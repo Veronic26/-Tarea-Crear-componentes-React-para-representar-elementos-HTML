@@ -1,0 +1,150 @@
+/* Fondo general morado muy claro */
+.App {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f0f8; /* Lila claro */
+  min-height: 100vh;
+}
+
+/* Logo con animación */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin: 1rem auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Encabezado principal */
+.App-header {
+  background-color: transparent;
+  padding: 2rem;
+  font-size: calc(10px + 2vmin);
+  color: #6f42c1;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+/* Texto general */
+p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2, h3, h5 {
+  color: #6f42c1;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Enlaces */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Imagen centrada y redondeada */
+img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+/* Lista con fondo y borde */
+ul {
+  padding-left: 1.5rem;
+  background-color: #f8f3fc; /* Lila muy claro */
+  border: 1px solid #e2d8f4;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #4b3b65;
+}
+
+/* Tabla con estilo limpio y contraste */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ded9eb;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ded9eb;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #eee8f6;
+  font-weight: bold;
+  color: #4b3b65;
+}
+
+/* Formulario */
+form {
+  background-color: #f3f0f8;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.04);
+  margin-top: 2rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc2dc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #5a34a7;
+}
